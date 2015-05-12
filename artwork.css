@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* artwork */
+
+header {
+	text-align: center;
+	background-color: rgba(75,74,74,1.00);		
+	padding-top: 75px;
+	padding-bottom: 40px;	
+	}	
+
+nav {
+	text-align:center;
+}
+
+.header-nav {
+	font-family: 'Raleway', sans-serif;
+	font-size:22px;
+	padding-top: 25px;
+	padding-bottom: 0;
+	}
+	
+.home {
+	padding-left: 445px;
+	float: left;
+	border-right: thin solid #FFFFFF;
+	padding-right: 35px;
+	}
+		
+.resume {
+	float: right;
+	padding-right: 445px;
+	border-left: thin solid #FFFFFF;
+	padding-left: 35px;
+	}	
+	
+/* unvisited link */
+a:link {
+    color: rgba(255,255,255,1.00);
+	text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #b5b5b5;
+	text-decoration: none;
+	
+}
+
+/* mouse over link */
+a:hover {
+    color: #9fcc45;
+}
+
+/* selected link */
+a:active {
+    color: #f68a1f;
+}
+
+.sub-nav {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	}
+	
+.sub-a {
+	float: left;
+	padding-left: 490px;
+	color: white;	
+	}
+	
+.sub-b {
+	float: right;
+	padding-right: 490px;
+	color: white;
+	}
+	
+.flexslider {
+	text-align: center;
+	padding-top: 60px;
+	padding-right: 55px;
+	padding-bottom: 80px;
+	}
+
+li {
+	display: none;
+	}
+		
+footer {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 16px;
+	background-color: rgba(75,74,74,1.00);
+	color: #FFFFFF;
+	padding-top: 70px;
+	padding-left: 45px;
+	padding-bottom: 30px;
+	text-align: center;
+	}
